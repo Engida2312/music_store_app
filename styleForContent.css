@@ -1,0 +1,113 @@
+
+body{
+    background-color: #1e1e1e;
+}
+.main-content{
+    height: 100vh;
+    padding: 50px;
+    margin-top: 100px;
+    color: antiquewhite;
+}
+hr{
+    width: 70px;
+    height: 1.5px;
+   background-color: #c6f850;
+   border-radius: 50%;
+   margin-top: 0;
+   margin-left: 20px;
+}
+
+.cards{
+    display: grid;
+    height: 100%; 
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.card{
+  background-color: #c6f850;
+  display: flex;
+  justify-content:start;
+  align-items:flex-start;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  padding: 15px;
+  font-weight: 600;
+  font-size: larger;
+}
+.one{
+      background-image:  url("img/m9.jpg");
+}
+.two{
+      background-image: url("img/m7.jpg");
+}
+.three{
+      background-image: url("img/mm8.jpg");
+}
+.four{
+      background-image: url("img/mu5.jpg");
+}
+.five{
+      background-image: url("img/mus3.jpg");
+}
+.six{
+      background-image: url("img/mu2.jpg");
+}
+.seven{
+      background-image: url("img/musi4.jpg");
+}
+.eight{
+      background-image: url("img/music-head-260nw-112490057.jpg");
+}
+.nine{
+      background-image: url("img/pexels-andrea-piacquadio-783243.jpg");
+}
+.ten{
+      background-image: url("img/pexels-nardo-3574678.jpg");
+}
+.card:hover{
+        color: #fff;
+        font-size: x-large;
+        background-blend-mode: multiply;
+    
+}
+@media(min-width:767px){
+    .card.tall-wide{
+    grid-row: span 2;
+    grid-column:span 2;
+  }
+    .card.tall1{
+    grid-row: 1/span 2;
+    grid-column:5/span 1;
+  }
+   .card.tall2{
+    grid-row: 2/span 2;
+    grid-column:2/span 1;
+  }
+  .card.small{
+    grid-row: span 1;
+    grid-column:span 1;
+  }
+  .card.small2{
+    grid-row: 4/span 1;
+    grid-column:3/span 1;
+  }
+  .card.large1{
+    grid-row: 1/span 1;
+    grid-column:1/span 2;
+  }
+  .card.large2{
+    grid-row: 4/span 1;
+    grid-column:1/span 2;
+  }
+}
+  
+  @media (max-width: 768px){
+     .cards{
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+   }
+}

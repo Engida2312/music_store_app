@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  color: #111111;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+form {
+  margin-top: 40px;
+  border: solid 2px #058b48;
+  padding: 40px; 
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+label {
+  font-size: 1.2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 20px;
+}
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  background-color: lightgreen;
+}
+select {
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  background-color: lightgreen;
+}
+textarea {
+  border-radius: 5px;
+  border: 0;
+  background-color: lightgreen;
+}
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.address label {
+  font-size: 1em;
+  font-weight: 500;
+  color: #7e7676;
+}
+button {
+  margin: 20px;
+  width: 160px;
+  height: 40px;
+  border: 0;
+  background-color: #8b3ffd;
+  border-radius: 4px;
+  margin-left: 300px;
+  color: white;
+}
+hr {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#gg {
+  font-size: 1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  color: #7e7676;
+}
+::placeholder{
+  padding: 10px;
+}
